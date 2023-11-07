@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: burlywood; 
+    width: 100%;
+}
+
+.logo {
+    width: 80px;
+    height: 70px;
+}
+
+.nav{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_links > a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.nav_links > a:hover {
+    color: #ff0000;
+}
+
+.main::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    filter: blur(90px);
+    height: 100%;
+    background: url(images/37340.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.hero-section_left {
+    margin-left: 10px;
+    margin-top: 4rem;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.hero-section_left > button {
+    background-color: #deb887;
+    padding: 0.8rem 1.5rem;
+    border-radius: 9999px;
+    color: #000000;
+    font-weight: 600;
+    border: none;
+}
+
+.hero-section_left > h1 {
+    /* background-color: #01a2a8;
+   */
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+.hero-section_left > p {
+    width: 60%;
+    line-height: 1.9rem;
+}
+
+.get-started {
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.get-started > a > button, .how-works > button {
+    background-color: #deb887;
+    padding: 0.8rem 1.5rem;
+    border-radius: 9999px;
+    color: #000000;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.get-started>a>button:hover,
+.how-works>button:hover {
+    background-color: white;
+    color: #01a2a8;
+    font-weight: 600;
+    border: 1px solid #01a2a8;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    height: 70vh;
+}
+
+.hero-section_right {
+    width: 50%;
+    height: 60vh;
+    overflow: hidden;
+}
+
+.hero-section_right img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
