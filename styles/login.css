@@ -1,27 +1,11 @@
-.login-container{
-    background-color: white;
-    width: 35vw;
-    height: 60vh;
-    margin: auto;
-    margin-top: 15vh;
-    box-shadow: 0px 4px 8px 0px rgb(191, 188, 188);
-    padding: 7%;
-}
-
 h1{
+    margin-bottom: 8%;
     text-align: center;
     font-family: "Fredoka One", cursive;
     letter-spacing: 0.1em;
     color: burlywood;
     /* text-shadow: 1px 3px green; */
 }
-
-input, button{
-    margin-bottom: 4%;
-    width: 100%;
-    padding: 3%;
-}
-
 
 p{
     margin-bottom: 5%;
@@ -34,6 +18,43 @@ p{
 p span{
     background-color: #fff;
     padding: 0 10px;
+}
+
+input {
+    margin-bottom: 3%;
+}
+
+input:last-of-type {
+    margin-bottom: 0;
+}
+
+input, button {
+    padding: 4%;
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.login-container {
+    background-color: white;
+    padding: 4%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 40vw;
+    margin: auto;
+    height: 70vh;
+    margin-top: 15vh;
+}
+
+#submit, #create-acct-btn {
+    background-color: burlywood;
+    color: white;
+    border: none;
+    margin-top: 5%;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.3s;
 }
 
 #sign-up{
@@ -51,6 +72,8 @@ p span{
     border: none;
     text-decoration: underline;
     cursor: pointer;
+    color: grey;
+    margin-top: 3%;
 
 }
 
