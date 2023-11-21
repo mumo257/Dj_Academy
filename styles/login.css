@@ -29,7 +29,7 @@ input:last-of-type {
 }
 
 input, button {
-    padding: 4%;
+    padding: 3.5%;
     width: 100%;
     margin-bottom: 3%;
 }
@@ -40,11 +40,11 @@ input, button {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 40vw;
     margin: auto;
-    height: 70vh;
+    height: 75vh;
     margin-top: 15vh;
 }
 
-#submit, #create-acct-btn {
+.submit, .create-acct-btn {
     background-color: burlywood;
     color: white;
     border: none;
@@ -57,7 +57,7 @@ button:hover {
     transition: 0.3s;
 }
 
-#sign-up{
+.sign-up{
     border: none;
     background-color: burlywood;
 }
@@ -67,12 +67,12 @@ button:hover {
 
 }
 
-#return-btn{
+.return-btn{
     background: none;
     border: none;
     text-decoration: underline;
     cursor: pointer;
-    color: grey;
+    color: burlywood;
     margin-top: 3%;
 
 }
